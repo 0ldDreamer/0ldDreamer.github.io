@@ -13,7 +13,7 @@ setInterval(() => {
     let seconds = second % 60;
 
     // 构建显示内容
-    let currentTimeHtml = `本站已运行：${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒`;
+    let currentTimeHtml = `本站已存活：${days} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒`;
 
     // 更新页面内容
     document.getElementById("runtime").innerHTML = currentTimeHtml;

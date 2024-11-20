@@ -4,7 +4,7 @@ div#runtime {
     color: #fff;
     padding: 0 10px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.7); */
 }
 
 [data-theme="dark"] div#runtime {
